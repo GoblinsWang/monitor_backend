@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 16 12:31:02 2022
+# Make data base, printed on Wed Jul 20 02:12:51 2022
 
 # Variables
 
@@ -33,9 +33,9 @@ CURDIR := /home/wzm/project/monitor_backend
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/wzm/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/wzm/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/node
+_ = /home/wzm/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -49,9 +49,9 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/wzm
 # environment
-SSH_CONNECTION = 192.168.1.75 58458 192.168.1.220 22
+SSH_CONNECTION = 192.168.1.75 54415 192.168.1.220 22
 # environment
-PATH = /home/wzm/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/wzm/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
@@ -65,7 +65,7 @@ LS_COLORS =
 # environment
 PWD = /home/wzm/project/monitor_backend
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-be546b80-a806-4888-ab05-630cf344ea1f.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-2d36e0c3-0eed-440e-9892-f9f7d42fcdab.sock
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -77,7 +77,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = wzm
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 +F = $(notdir $+)
 # environment
@@ -93,7 +93,7 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 3
 # environment
-XDG_SESSION_ID = 542
+XDG_SESSION_ID = 698
 # environment
 USER = wzm
 # makefile
@@ -102,8 +102,6 @@ USER = wzm
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := make
-# environment
-OLDPWD = /home/wzm/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # default
 .VARIABLES := 
 # automatic
@@ -113,13 +111,13 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.1.75 58458 22
+SSH_CLIENT = 192.168.1.75 54415 22
 # environment
 MAIL = /var/mail/wzm
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/wzm/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/helpers/browser.sh
+BROWSER = /home/wzm/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
 # environment
 VSCODE_HANDLES_SIGPIPE = true
 # default
@@ -141,7 +139,7 @@ MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=64/1024=6%, Rehash=0, Collisions=8/86=9%
+# Load=63/1024=6%, Rehash=0, Collisions=8/85=9%
 
 # Pattern-specific Variable Values
 
@@ -149,9 +147,9 @@ LANG = C
 
 # Directories
 
-# . (device 2050, inode 15992712): 16 files, no impossibilities.
+# . (device 2050, inode 15992712): 14 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -201,12 +199,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 233 B / avg = 9 B
-# current buf: size = 8162 B / used = 233 B / count = 24 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 214 B / avg = 9 B
+# current buf: size = 8162 B / used = 214 B / count = 22 / avg = 9 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Sat Jul 16 12:31:02 2022
+# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Wed Jul 20 02:12:51 2022
 
  
