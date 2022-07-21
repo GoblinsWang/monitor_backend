@@ -3,13 +3,14 @@
 
 #include <pthread.h>
 
-struct event_loop_thread {
+struct event_loop_thread
+{
     struct event_loop *eventLoop;
-    pthread_t thread_tid;        /* thread ID */
+    pthread_t thread_tid; /* thread ID */
     pthread_mutex_t mutex;
     pthread_cond_t cond;
-    char * thread_name;
-    long thread_count;    /* # connections handled */
+    char *thread_name;
+    long thread_count; /* # connections handled */
 };
 
 //初始化已经分配内存的event_loop_thread
