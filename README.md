@@ -1,3 +1,10 @@
 
-# Download json.hpp for project
-    wget https://github.com/nlohmann/json/releases/download/v3.7.3/json.hpp
+## 项目介绍
+- 简单来说，这是一个后台通信控制系统，负责客户端的上线通知、路由转发、探针保活等等，客户端通过HTTP服务调用的方式来调用服务端的功能函数。
+
+## 功能介绍
+- 上线通知
+
+- 路由转发
+
+- 探针保活
